@@ -9,7 +9,7 @@ const Card = (props:ICard) => {
     const {name , gender , course} = props;
   return (
 <>
-<div className="bg-blue-100 h-[300px] w-[300px] border-[10px] border-blue-950 rounded-md text-[20px] font-[500] md:space-y-[25px] p-[20px]">
+<div className="bg-blue-100 h-[300px] w-[300px] border-[10px] border-blue-950 rounded-md text-[20px] font-[500] md:space-y-[25px] space-y-[15px] p-[20px]">
     <h1>Name = {name}</h1>
     <h1>Gender = {gender}</h1>
     <h1>Course = {course}</h1>
