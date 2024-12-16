@@ -1,11 +1,7 @@
 import React from 'react'
 
-interface ICard{
-    name: string,
-    gender: string,
-    course: string
-}
-const Card = (props:ICard) => {
+
+const Cards = (props:any ) => {
     const {name , gender , course} = props;
   return (
 <>
@@ -20,4 +16,4 @@ const Card = (props:ICard) => {
   )
 }
 
-export default Card;
+export default Cards;
